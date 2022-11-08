@@ -202,7 +202,8 @@ a.icono4 img{
 
 figure{
     display: flex;
-    justify-content: space-between;
+    text-align: center;
+    justify-content: center;
 }
 
 ul.caracteristicas{
@@ -241,3 +242,34 @@ h2.cabecera{
     font-size: medium;
     text-align: center;
 }
+
+section.footer h1{
+    color: #313e50;
+    font-size: 50px;
+    text-align:center;
+}
+section.footer p{
+    color:#313e50;
+    font-size: 30px;
+    text-align: center;
+}
+a.contenedor1 img{
+
+
+}
+a.contenedor2 img{
+
+
+}
+
+section.footer ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+section.footer {
+    color: transparent;
+
+}
+
