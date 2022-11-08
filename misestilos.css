@@ -13,7 +13,7 @@ header{
     padding: 90px 10px;
     text-align:center
 }
-header .h1{
+h1.cabecera{
     font: bold 200px 'Inter';
     margin-bottom: 500px;
     color:midnightblue;
@@ -21,9 +21,7 @@ header .h1{
 
 }
 header .h2{
-    font: normal 60px 'Inter';
-    margin-bottom: 400px;
-    color:black;
+    
 }
 
 body div{
@@ -113,7 +111,9 @@ h2{
 }
 
 h2.cabecera{
-    margin-right: 5000px;
+    font: normal 60px 'Inter';
+    margin-bottom: 400px;
+    color:black;
 
 }
 
