@@ -88,6 +88,11 @@ h1{
     transform: translateX(2%) translateY(-120%)
 }
 
+h1.cabecera{
+    padding: 20px;
+    text-align: center;
+}
+
 h2{
     color: #313E50;
     font-size:25px;
@@ -97,6 +102,11 @@ h2{
     left: 26%;
     transform: translateX(-120%) translateY(-7%);
 }
+
+h2.cabecera{
+      text-align: center;
+}
+
 
 h3{
     color: #313E50;
