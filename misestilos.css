@@ -13,13 +13,11 @@ header{
 h1.cabecera{
     font: bold 80px 'Inter';
     color:midnightblue;
-     padding: 20px;
     text-align: center;
     margin-bottom: 20px;
 
 }
 h2.cabecera{
-    padding-top: 40px;
     font-size: medium;
     text-align: center;
 
