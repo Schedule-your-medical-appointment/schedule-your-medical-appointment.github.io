@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;900&display=swap');
+
+html {
+    font: normal 16px sans-serif;
+    scroll-behavior: smooth !important;
+    background-color: #F1DFB5;
+}
+
+div{
+    display: flex;
+    justify-content: space-between;
+}
+
+img.logo {
+    padding: 0;
+    margin: 0;
+    width: 280px;
+    height: auto;
+    cursor: pointer;
+}
+
+img.logo:hover{
+    transform: scale(1.1);
+}
+
+
+h1{
+    padding: 20px;
+    text-align: center;
+}
+
+ul{
+    justify-content: right;
+    display: flex;
+    margin-top: 10px;
+    list-style: none;
+    font:normal 21px Inter;
+}
+
+li{
+
+    border-style: groove;
+    border-width: thin;
+    border-color: black;
+    border-radius: 50px;
+    background: #EFD9A0;
+    margin-right: 12px;
+    padding: 3px 15px;
+
+}
+
+li.descargar{
+    color: white;
+    border-width: medium;
+    background-color: #313E50;
+    padding: 2px 25px;
+    cursor: pointer;
+}
+
+li.descargar:hover{
+    transform: scale(1.1);
+}
+
+a{
+    margin: fill;
+    text-decoration: none;
+    color: black;
+
+}
+
+a.descargar{
+    color:white;
+}
