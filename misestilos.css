@@ -24,11 +24,6 @@ img.logo:hover{
 }
 
 
-h1{
-    padding: 20px;
-    text-align: center;
-}
-
 ul{
     justify-content: right;
     display: flex;
@@ -197,11 +192,7 @@ p3{
     transform: translateX(-50%) translateY(-40%);
  }
     
-    
-  *{
-    margin:0;
-    padding:0;
-}
+
 body{
     background: #f8f4f8;
 }
