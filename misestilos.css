@@ -75,11 +75,11 @@ a.descargar{
 /*Acá termina la parte de Valery*/
 
 
-body{
+section.caracteristicas{
     background-color: #F8F4F8;
 }
 
-h1{
+h1.caracteristicas{
     color: #313E50;
     font-size:53px;
     text-align: center;
