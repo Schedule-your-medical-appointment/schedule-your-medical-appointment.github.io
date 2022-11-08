@@ -229,6 +229,7 @@ ul.caracteristicas li p{
 
 ul.caracteristicas li h2{
     text-align: center;
+
 }
 
 h1.caracteristicas{
@@ -236,22 +237,29 @@ h1.caracteristicas{
     color: #313E50;
     font-size:53px;
     text-align: center;
+    background-image: url("encabezado.png");
+    padding-top: 80px;
+
 }
 
 h2.cabecera{
+    padding-top: 40px;
     font-size: medium;
     text-align: center;
+
 }
 
 section.footer h1{
     color: #313e50;
     font-size: 50px;
     text-align:center;
+    margin-bottom: 0;
 }
 section.footer p{
     color:#313e50;
     font-size: 30px;
     text-align: center;
+    margin-bottom: 100px;
 }
 a.contenedor1 img{
 
@@ -266,6 +274,8 @@ section.footer ul{
     display: flex;
     text-align: center;
     justify-content: center;
+    margin-top: 0;
+    
 }
 
 section.footer {
