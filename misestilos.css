@@ -4,25 +4,95 @@
 html {
     font: normal 16px sans-serif;
     scroll-behavior: smooth !important;
-    background-color: #F1DFB5;
+    /*background-color: #F1DFB5;*/
+    padding: 0 0 0 0;
+    margin: 0;
+    background-color: #F8F4F8;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+body header{
+}
+
+body section.inicio{
+    background-image: url(images/imagen1.png);
+    background-size: cover;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 20px;
 }
 
 h1.cabecera{
-    font-size: 60px;
+    font-size: 57.5px;
+    font-family: bold;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
     color:midnightblue;
     text-align: center;
-    margin: 0 0 0px;
+    margin: 0 0 0px 0px;
+    padding-top: 11px ;
 
 }
 h2.cabecera{
-    font-size: medium;
+    font-size: 23px;
     text-align: center;
+    font-weight: lighter;
+    font-family: inherit;
 
 }
 figure{
     display: flex;
     text-align: center;
     justify-content: center;
+    height: 400px;
+}
+
+body.proyecto div{
+    padding: 0;
+    margin: 0;
+}
+
+img.fondo{
+    position: absolute;
+    top: revert;
+    left:0;
+    height: 100%;
+    width: 100%;
+    padding: 0px 0px;
+    margin: 0;
+    background-size: cover;
+    z-index: -2;
+    opacity: 70%;
+    background-color: #ECDFBE;
+}
+
+div.boton a.empezar{
+    border-radius: 50px;
+    border-color: black;
+    border-style: solid;
+    padding: 0.8%;
+    background-color: midnightblue;
+    border-width: 2px;
+    color: white;
+    font-weight: lighter;
+    justify-content: center;
+    position: center;
+    text-align: center;
+    text-align-all: center;
+    margin-top: 0.5%;
+    text-decoration: none;
+}
+
+div.boton{
+    justify-content: center;
+    background: #F8F4F8;
 }
 
 body div{
@@ -30,29 +100,29 @@ body div{
     justify-content: space-between;
 }
 
-body section div div img.logo {
+
+body header section div div img.logo {
     padding: 0;
     margin: 0;
     width: 280px;
     height: auto;
     cursor: pointer;
+
 }
 
-body section div div img.logo:hover{
+
+body header section div div img.logo:hover{
     transform: scale(1.1);
 }
 
-
-body section div nav ul{
-    justify-content: right;
+body header section div nav ul{
     display: flex;
     margin-top: 10px;
     list-style: none;
     font:normal 21px Inter;
 }
 
-body section div nav ul li{
-
+body header section div nav ul li{
     border-style: groove;
     border-width: thin;
     border-color: black;
@@ -60,23 +130,24 @@ body section div nav ul li{
     background: #EFD9A0;
     margin-right: 12px;
     padding: 3px 15px;
-
 }
 
-body section div nav ul li.descargar{
+body header section div nav ul li.descargar{
     color: white;
     border-width: medium;
     background-color: #313E50;
     padding: 2px 25px;
     cursor: pointer;
+    margin-right: 15px;
+
 }
 
-body section div nav ul li.descargar:hover{
+body header section div nav ul li.descargar:hover{
     transform: scale(1.1);
 }
 
-body section div nav ul li a{
-    margin: fill;
+body header section div nav ul li a{
+
     text-decoration: none;
     color: black;
 
@@ -86,7 +157,12 @@ a.descargar{
     color:white;
 }
 section.caracteristicas{
-    background-color: #F8F4F8;
+    background-image: url("images/imagen2.png");
+    background-size: cover;
+    margin-top: 0;
+    padding-bottom: 10%;
+    background-size: 100% 100%;
+    padding-top: 0;
 }
 
 /* h1.caracteristicas{
@@ -222,52 +298,82 @@ a.icono4 img{
 ul.caracteristicas{
     display: flex;
     list-style: none;
-    justify-content: space-between;
+    width: 96%;
+    margin-top: 0px;
+
 }
 
 ul.caracteristicas li{
-    margin-right: 20px;
+    margin: auto;
     text-align: center;
+    width: 25%;
+
 }
 
 ul.caracteristicas li p{
     text-align: center;
+    font-weight: lighter;
+    font-size: 18px;
+    white-space: normal;
+    line-height: 30px;
+    letter-spacing: 0.7px;
+
 }
 
 ul.caracteristicas li h2{
     text-align: center;
-
+    line-height: 35px;
+    font-family: Inter;
+    font-size: 25px;
 }
 
 h1.caracteristicas{
-    margin-top: 50px;
+    margin-top: 20px;
     color: #313E50;
     font-size:53px;
     text-align: center;
-    background-image: url("encabezado.png");
-    padding-top: 80px;
+    background-size: cover;
+    padding-top: 50px;
+    margin-bottom: 4%;
+}
 
+a.icono img{
+    width: 120px;
+    margin-bottom: 0;
+}
+
+footer{
+    background-image: url("images/footer.png");
+    background-size: cover;
+    margin-top: 114px;
+}
+
+section.footer{
+    padding-top: 7%;
+    padding-bottom: 5%;
 }
 
 section.footer h1{
-    color: #313e50;
+    color: midnightblue;
     font-size: 50px;
     text-align:center;
     margin-bottom: 0;
+    margin-top: 0;
+
 }
 section.footer p{
-    color:#313e50;
+    margin-top: 0;
+    color:midnightblue;
     font-size: 30px;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 1%;
 }
 a.contenedor1 img{
 
-
+margin-bottom: 0;
 }
 a.contenedor2 img{
-
-
+margin-bottom: 0;
 }
 
 section.footer ul{
@@ -275,7 +381,7 @@ section.footer ul{
     text-align: center;
     justify-content: center;
     margin-top: 0;
-    
+
 }
 
 section.footer {
@@ -292,13 +398,15 @@ section.footer {
 }
 
 #contenedor > div {
-    width: 100vh;
+
 }
 
 body.proyecto {
-    height: 100%;
-    background-color: #feeab8;
     box-sizing: border-box;
+    background-size: cover;
+    border: none;
+    margin: 0;
+    background-color: #ECDFBE;
 }
 
 .flexbox {
@@ -307,23 +415,22 @@ body.proyecto {
     justify-content: center;
 }
 body.proyecto section.compromisos {
-    height: 800px;
-    background-image: url(https://clinic-cloud.com/wp-content/uploads/2015/05/medicina-preventiva.jpg);
-    background-color: transparent;
     background-size: cover;
-    background-repeat: no-repeat;
     mix-blend-mode: multiply;
-    background-position: center center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 125px 100px;
+    padding: 0;
+}
+
+body.proyecto section.compromisos div{
+
 }
 
 section.compromisos h3.title {
     color: grey;
     text-transform: capitalize;
-    font: bold 32px "Open Sans", sans-serif;
+    font: bold 32px "Inter", sans-serif;
     margin-bottom: 35px;
     text-align: center;
 }
@@ -332,7 +439,7 @@ section.compromisos h2 {
     font-size: xxx-large; /* Modifica el tamño de la letra */
     max-width: 800px; /* Modifica el largo de la linea antes de pasar a la siguiente linea */
     margin: 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter", sans-serif;
     display: block;
     font-size: 2em;
     margin-block-start: 0.67em;
@@ -343,7 +450,7 @@ section.compromisos h2 {
 }
 
 ul.grid {
-    width: 100%;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -351,9 +458,6 @@ ul.grid {
 }
 
 /* Compomiso Section*/
-.compromisos {
-    background-color: #efd9a0;
-}
 
 .compromisos .grid li {
     flex-basis: 33%;
@@ -370,7 +474,7 @@ h1.number1 {
 }
 h1.subtitle1 {
     margin-top: 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 2px;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
@@ -381,7 +485,7 @@ h1.subtitle1 {
 }
 .subtitle2 {
     margin-top: 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 15px;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
@@ -396,4 +500,13 @@ h1.subtitle1 {
 
 .linea {
     border-top: 3.5px dashed darkblue;
+
+}
+
+@media (max-width: 800px){
+    section.caracteristicas, ul.caracteristicas, section.footer ul{
+        display: grid;
+        width: 100%;
+        background-size: initial;
+    }
 }
